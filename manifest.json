@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "DealCloser AI - The Sales Closer",
+  "version": "1.0.0",
+  "description": "Close deals faster with AI-powered sales frameworks and smart replies.",
+  "permissions": ["sidePanel", "storage", "tabs", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "action": {
+    "default_title": "Open DealCloser AI"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["content.css"]
+    }
+  ],
+  "icons": {
+    "128": "icon.png"
+  }
+}
