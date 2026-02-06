@@ -1,0 +1,31 @@
+/* content.css */
+#deal-closer-bubble:hover {
+    box-shadow: 0 0 20px rgba(212, 175, 55, 0.6);
+}
+
+.animate-text {
+    animation: fadeInSlide 0.3s ease-out;
+}
+
+@keyframes fadeInSlide {
+    from {
+        opacity: 0;
+        transform: translateX(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.copy-btn {
+    margin-top: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid var(--accent);
+    color: var(--accent);
+    padding: 5px 12px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    cursor: pointer;
+}
