@@ -1,5 +1,7 @@
 # Deal Closer Extension
 
+Built by [VisionQuantech](https://visionquantech.com) — AI agents, apps & tools for small businesses.
+
 Deal Closer — smart browser extension to seal sales faster
 
 ![Language](https://img.shields.io/badge/Language-JavaScript-blue)
